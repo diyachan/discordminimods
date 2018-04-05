@@ -19,7 +19,7 @@
     /*font-family: monospace;*/
 }
 
-.user-name:after{content:"_";}
+/*.user-name:after{content:"_";}*/
 
 [class^='contentUnreadText']{
     background: linear-gradient(to right, rgba(255,255,255,0.1),transparent, transparent) !important;
