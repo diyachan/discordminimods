@@ -19,7 +19,12 @@
     /*font-family: monospace;*/
 }
 
-.user-name:after{content:"_";}
+.user-name:after{
+  content:"_";
+  animation-name: cursorblink;
+  animation-duration: 1s;
+  animation-direction: alternate;
+}
 
 [class^='contentUnreadText']{
     background: linear-gradient(to right, rgba(255,255,255,0.1),transparent, transparent) !important;
@@ -108,6 +113,14 @@
     0% {opacity:1;}
     80% {opacity:0;}
     100% {opacity:0.9;}
+}
+
+@keyframes cursorblink{
+    0% {opacity:1;}
+    49% {opacity:1;}
+    50% {opacity:0;}
+    99% {opacity:0;}
+    100% {opacity:1;}
 }
 
 /*@keyframes blink-bg{
