@@ -23,6 +23,7 @@
   content:"_";
   animation-name: cursorblink;
   animation-duration: 1s;
+  animation-timing-function: ease;
   animation-iteration-count: infinite;
 }
 
