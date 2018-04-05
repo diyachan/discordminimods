@@ -68,13 +68,8 @@
     left: 0 !important;
     right: 0 !important;
     border-radius: 0px !important;
+    background-color: rgba(0,0,0,0.5)
 }
-
-.new-messages-bar
-{background: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0.5), transparent ) !important;}
-
-.jump-to-present-bar
-{background: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.5), transparent ) !important;}
 
 .new-messages-bar button:last-child,
 .jump-to-present-bar button:last-child
