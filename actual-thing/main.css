@@ -48,9 +48,9 @@
     height: auto;
 }
 
-/*channel-members,
+/*.channel-members,
 [class^='memberInner']{
-    text-align: center !important;
+    text-align: left !important;
 }*/
 
 /*[class^='containerDefault']{
