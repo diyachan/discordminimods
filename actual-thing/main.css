@@ -48,10 +48,10 @@
     height: auto;
 }
 
-.channel-members,
+/*channel-members,
 [class^='memberInner']{
     text-align: center !important;
-}
+}*/
 
 /*[class^='containerDefault']{
     padding-top: 12px;
