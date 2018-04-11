@@ -41,7 +41,7 @@
     background-color: rgba(114,137,218,0.3);
 }
 
-.channel-members>.old-h2{
+[class^='membersGroup']{
     margin: 9px 0px;
     font-size: 10px;
     text-align: center;
