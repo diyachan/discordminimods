@@ -14,9 +14,7 @@
 .markup{padding-left: 12px !important;}
 
 .user-name{
-    font-style: italic !important;
     background-color: !important;
-    /*font-family: monospace;*/
 }
 
 /*.user-name:after{content:"_";}*/
@@ -40,6 +38,50 @@
     text-align: center;
     line-height: 0;
     text-transform: none;
+}
+
+.message-group .mentioned .message-text:after{
+    left: 0;
+    border-left: 3px solid rgba(255,255,255,0.5);
+    border-radius: 0px;
+    background: transparent;
+}
+
+.message-group .mentioned .message-text{
+    background-color: rgba(114,137,218,0.2);
+}
+
+.mention{
+    background: transparent !important;
+    border-bottom: 2px solid;
+    padding: 0px px;
+    font-weight: 600;
+}
+
+.timestamp{
+    background: rgba(255,255,255,0.05) !important;
+    padding: 0px 3px;
+    border-radius: 4px;
+    color: rgba(255,255,255,0.4) !important;
+}
+
+.message-group{
+    border: none;
+}
+
+[class^="memberOffline"]{
+    opacity:0.2 !important;
+}
+
+[class^="memberOffline"]:hover{
+    opacity:0.9 !important;
+}
+
+[class^='attachButton']
+{display: none !important}
+
+[class^='textAreaEnabled']{
+    padding-left: 12px;
 }
 
 /*.channel-members,
@@ -91,6 +133,24 @@
     border: 1px solid;
     padding: 0px 2px;
     color: hsla(0,0%,100%,.6) !important;
+}
+
+.message-group .mentioned .message-text:after{
+    left: 0;
+    border-left: 3px solid rgba(255,255,255,0.5);
+    border-radius: 0px;
+    background: transparent;
+}
+
+.message-group .mentioned .message-text{
+    background-color: rgba(114,137,218,0.2);
+}
+
+.mention{
+    background: transparent !important;
+    border-bottom: 2px solid;
+    padding: 0px px;
+    font-weight: 600;
 }
 
 /*complementary animations*/
